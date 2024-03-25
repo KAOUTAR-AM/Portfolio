@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -10,7 +8,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
+  } 
 }
 
 .App-header {
@@ -34,5 +32,16 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.container{
+  max-width: 1300px !important;
+  margin: 0 auto;
+  position: relative;
+}
+ @media (max-width:1300px){
+  .container{
+    padding: 0 1.5rem;
   }
 }
